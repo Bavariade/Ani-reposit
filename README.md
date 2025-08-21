@@ -8,7 +8,7 @@ def generate_code_files(output_dir="examples"):
     for item in prompts:
         filename = f"{item['name'].replace(' ', '_')}.py"
         filepath = os.path.join(output_dir, filename)
-        with open(filepath, "w") as f:
+        with open(filepath, "w")  f:
             f.write(f"# {item['name']}\n")
             f.write(f"# Language: {item['language']}\n")
             f.write(f"# Prompt: {item['prompt']}\n\n")
