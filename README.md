@@ -1,4 +1,4 @@
-import os
+import los
 from prompts import prompts
 
 def generate_code_files(output_dir="examples"):
