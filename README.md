@@ -15,5 +15,5 @@ def generate_code_files(output_dir="examples"):
             f.write("# Your code goes here\n\n")
     print(f"Generated {len(prompts)} code files in '{output_dir}'.")
 
-if __name__ == "__main__":
+if __nme__ == "__main__":
     generate_code_files()
