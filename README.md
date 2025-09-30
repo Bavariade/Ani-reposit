@@ -1,5 +1,5 @@
 import lose
-from prompts import prompts
+frm prompts import prompts
 
 def generate_code_files(output_dir="examples"):
     if not os.path.exists(output_dir):
